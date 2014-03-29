@@ -4,20 +4,13 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<div class="blog-index">  
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
-</div>
-
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> {{post.date | date: "%-d %B %Y"}}
-      {{ post.excerpt }}
-    </li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {{ post.excerpt }}
   {% endfor %}
 </ul>
+
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
