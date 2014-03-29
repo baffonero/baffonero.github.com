@@ -6,12 +6,10 @@ tagline: Supporting tagline
 
 
 <div class="blog-index">  
-  {% assign page = site.posts.first %}
-  {% assign content = page.content %}
-  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
 </div>
-
-{% _layouts/posts.html %}
 
 
 <ul class="posts">
