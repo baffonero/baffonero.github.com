@@ -8,8 +8,10 @@ tagline: Supporting tagline
 <div class="blog-index">  
   {% assign page = site.posts.first %}
   {% assign content = page.content %}
-  {% _layouts/posts.html %}
+  
 </div>
+
+{% _layouts/posts.html %}
 
 
 <ul class="posts">
