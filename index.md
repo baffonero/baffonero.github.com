@@ -4,10 +4,16 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }} {{post.date | date: "%-d %B %Y"}}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a> {{post.date | date: "%-d %B %Y"}}
       {{ post.excerpt }}
     </li>
   {% endfor %}
