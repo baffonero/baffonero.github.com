@@ -7,7 +7,7 @@ tagline: Supporting tagline
 <ul>
   {% for post in site.posts %}
     <li>
-      {{post.date}}
+      {{post}}
       <a href="{{ post.url }}">{{ post.title }} {{post.date}}</a>
       {{ post.excerpt }}
     </li>
