@@ -4,8 +4,8 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-# {% assign content = post.content %}
-# {% include themes/the-program/post_detail.html %}
+<!-- {% assign content = post.content %}
+ {% include themes/the-program/post_detail.html %} -->
 
 <div class="blog-index">  
   {% assign post = site.posts.first %}
