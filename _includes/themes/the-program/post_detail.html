@@ -6,8 +6,9 @@
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
-<div class="entry-content">{{ content }}
-	<div class="meta">
+<div class="entry-content">
+	{{ content }}
+	<!--<div class="meta">
 		<p class="date-publish">
 			Published: 
 			<date class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}" pubdate>
@@ -25,6 +26,6 @@
 			<li class="list-head">tags: </li>
 			{% assign tags_list = post.tags %}
 			{% include JB/tags_list %}
-		</ul>
-	</div><!-- meta -->
+		</ul>-->
+	<!--</div>--><!-- meta -->
 </div>
