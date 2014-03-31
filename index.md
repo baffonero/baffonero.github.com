@@ -9,16 +9,15 @@ tagline: Supporting tagline
   <!--{% include themes/the-program/post.html %}-->
 <div class="blog-index">  
   {% assign post = site.posts.first %}
-  {% assign page = site.posts.first %}
+  {% assign content = post.content %}
   {% include themes/the-program/post_detail.html %} 
-  {% assign content = page.content %}
 </div>
 
 
 <ul class="posts">
   {% for post in site.posts %}
     {% if post != site.posts.first %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      <li><h2><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2></li>
       {{ post.excerpt }}
     {% endif %}  
   {% endfor %}
