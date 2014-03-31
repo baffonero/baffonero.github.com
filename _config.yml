@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : baffonero
-tagline: "!/startup/distress/chronicles"
+tagline: "#!/startup/distress/chronicles"
 #tagline: ciao
 author :
   name : baffonero
