@@ -10,6 +10,7 @@ tagline: Supporting tagline
 <div class="blog-index">  
   {% assign post = site.posts.first %}
   {% assign page = site.posts.first %}
+  {% include themes/the-program/post_detail.html %} 
   {% assign content = page.content %}
 </div>
 
