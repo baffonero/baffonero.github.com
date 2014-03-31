@@ -8,8 +8,7 @@ tagline: Supporting tagline
 <div class="blog-index">  
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
-  <p>{{ post.date }}</p>
-  {% include themes/the-program/post_detail.html/post %} 
+  {% include themes/the-program/post_detail.html %} 
 </div>
 
 <ul class="posts">
