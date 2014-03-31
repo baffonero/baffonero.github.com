@@ -9,8 +9,8 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : baffonero
-#tagline: !/startup/distress/chronicles
-tagline: ciao
+tagline: "!/startup/distress/chronicles"
+#tagline: ciao
 author :
   name : baffonero
 #  email : blah@email.test
