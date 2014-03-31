@@ -10,10 +10,8 @@ pygments: true
 #
 title : baffonero
 tagline: "#!/startup/distress/chronicles"
-#tagline: ciao
 author :
-  name : baffonero
-#  email : blah@email.test
+  name : baffonero  email : blah@email.test
   github : baffonero
   twitter : baff0ner0
   feedburner : baffonero
