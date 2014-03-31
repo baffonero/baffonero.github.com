@@ -14,7 +14,7 @@ tagline: Supporting tagline
 <ul class="posts">
   {% for post in site.posts %}
     {% if post != site.posts.first %}
-      <h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</a></h3>
+      <h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
     {% endif %}  
   {% endfor %}
