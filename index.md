@@ -7,7 +7,9 @@ tagline: Supporting tagline
 
 <div class="blog-index">  
   {% assign post = site.posts.first %}
-  {% assign content = post.content %}
+  {% assign page = site.posts.first %}
+  {% assign content = page.content %}
+  <!--{% assign content = post.content %}-->
   <!--{% include themes/the-program/post_detail.html %}-->
   {% include themes/the-program/post.html %}
 </div>
