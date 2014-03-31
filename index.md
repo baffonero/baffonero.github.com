@@ -11,7 +11,7 @@ tagline: Supporting tagline
   {% assign post = site.posts.first %}
   {% assign page = site.posts.first %}
   {% assign content = page.content %}
-  {% include themes/the-program/post.html %}
+  <!--{% include themes/the-program/post.html %}-->
 </div>
 
 
