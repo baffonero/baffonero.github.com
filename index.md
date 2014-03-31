@@ -9,7 +9,7 @@ tagline: Supporting tagline
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
   <p>{{ post.date }}</p>
-  {% include themes/the-program/post_detail.html %} 
+  {% include themes/the-program/post_detail.html/post %} 
 </div>
 
 <ul class="posts">
