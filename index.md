@@ -1,6 +1,7 @@
 ---
 layout: page
 tagline: Supporting tagline
+title : Baffonero
 ---
 {% include JB/setup %}
 
