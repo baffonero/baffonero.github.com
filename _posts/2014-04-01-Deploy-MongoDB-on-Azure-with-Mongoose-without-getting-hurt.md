@@ -2,7 +2,7 @@
 layout: post
 category : blog
 tagline: "Supporting tagline"
-tags : [food, meetings]
+tags : [mongodb, azure, linux]
 ---
 
 Symptoms
