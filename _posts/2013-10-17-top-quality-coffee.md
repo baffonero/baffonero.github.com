@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : blog
 tagline: "Supporting tagline"
 tags : [food, meetings]
 ---
