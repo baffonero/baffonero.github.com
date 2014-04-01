@@ -5,13 +5,13 @@ tagline: "Supporting tagline"
 tags : [mongodb, azure, linux]
 ---
 
-Symptoms
-----------------------------
-
 Last month we moved our MongoDB instance to a Linux Virtual Server on Windows Azure.
 I think Windows Azure is a great platform but I am also convinced that a second after registration there should be someone who asks you: 
 
 **"Do you know what TCP_KEEPALIVE_TIME is? Are you sure? Are you really really sure you do?"**
+
+Symptoms
+----------------------------
 
 Well, if you don't you'll notice that your node long running application will start crashing in this sweet fashion:
 
