@@ -429,21 +429,21 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
 }
 h3,
 .h3 {
-  font-size: 25.888px;
+  font-size: 22.888px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
 h4,
 .h4 {
-  font-size: 18.541px;
+  font-size: 16.541px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
@@ -545,7 +545,7 @@ No styleguide reference.
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
-  color: #2d2d2d;
+  color: #939393;
 }
 #page {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
@@ -554,19 +554,19 @@ html {
   background-color: #e2e2de;
 }
 .body .unit-body {
-  background-color: #fafafa;
+  background-color: black;
 }
 /* LINK */
 a:link {
-  color: #2d2d2d;
+  color: #c67421;
   text-decoration: none;
 }
 a:visited {
-  color: #141414;
+  color: #c67421;
   text-decoration: none;
 }
 a:hover {
-  color: #474747;
+  color: #c67421;
   text-decoration: none;
 }
 /* HIGHLIGHTER */
@@ -618,7 +618,7 @@ pre {
   margin-bottom: 21px;
 }
 .unit-article header h1 {
-  color: #2d2d2d;
+  color: #bfbbbb;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -627,14 +627,14 @@ pre {
 .unit-article .entry-content h4,
 .unit-article .entry-content h5,
 .unit-article .entry-content h6 {
-  color: #2d2d2d;
+  color: #bfbbbb;
 }
 .unit-article .entry-content h2 a:link,
 .unit-article .entry-content h3 a:link,
 .unit-article .entry-content h4 a:link,
 .unit-article .entry-content h5 a:link,
 .unit-article .entry-content h6 a:link {
-  color: #2d2d2d;
+  color: #c67421;
   border: 0;
 }
 .unit-article .entry-content h2 a:visited,
@@ -642,7 +642,7 @@ pre {
 .unit-article .entry-content h4 a:visited,
 .unit-article .entry-content h5 a:visited,
 .unit-article .entry-content h6 a:visited {
-  color: #141414;
+  color: #c67421;
   border: 0;
 }
 .unit-article .entry-content h2 a:hover,
@@ -650,7 +650,7 @@ pre {
 .unit-article .entry-content h4 a:hover,
 .unit-article .entry-content h5 a:hover,
 .unit-article .entry-content h6 a:hover {
-  color: #474747;
+  color: #c67421;
   border: 0;
 }
 .unit-article .entry-content:first-child h2,
@@ -661,13 +661,13 @@ pre {
   margin-top: 0;
 }
 .unit-article a:link {
-  border-bottom: 1px dashed #c26164;
+  border-bottom: 1px dashed #c67421;
 }
 .unit-article a:visited {
-  border-bottom: 1px dashed #ad4346;
+  border-bottom: 1px dashed #c67421;
 }
 .unit-article a:hover {
-  border-bottom: 1px dashed #d08688;
+  border-bottom: 1px dashed #c67421;
 }
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
@@ -926,15 +926,15 @@ pre {
   padding: 26px;
 }
 .the-footer a:link {
-  color: #c26164;
+  color: #c67421;
   border: 0;
 }
 .the-footer a:visited {
-  color: #ad4346;
+  color: #c67421;
   border: 0;
 }
 .the-footer a:hover {
-  color: #d08688;
+  color: #c67421;
   border: 0;
 }
 .the-footer h4 {
@@ -970,7 +970,7 @@ pre {
     height: 26px;
   }
   .the-header .unit-head .nav-global li a:hover {
-    background-color: #fff04a;
+    background-color: #F9861D;
     color: #474747;
   }
   .the-header .unit-head .nav-global li:nth-child(2) {
