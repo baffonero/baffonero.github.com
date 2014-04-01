@@ -48,7 +48,7 @@ Change TCP_KEEPALIVE_TIME value:
 	root@yourserver:~# sysctl -w net.ipv4.tcp_keepalive_time=30
 	net.ipv4.tcp_keepalive_time = 30
 
-If you too have had huge adrenaline rushes seeing your application crashing over and over in production again and again
+I bet you'll appreciate this if you too have had huge adrenaline rushes seeing your application crashing over and over in production.
 
 
 Futher reading:
